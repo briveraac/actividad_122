@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Menú de navegación en color rojo */
+.menu {
+  background-color: #8b0000;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.menu a:hover {
+  color: #f4d9d9;
+}
+
+/* Extracto de la empresa centrado */
+.extracto {
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+h2 {
+  text-align: center;
+  color: #8b0000;
+}
+
+/* Botón rojo para el formulario */
+.boton-rojo {
+  background-color: #8b0000;
+  color: white;
+  border: none;
+}
+
+.boton-rojo:hover {
+  background-color: #4a0404;
+  color: white;
+}
+
+/* Pie de página con fondo negro, siempre pegado al final */
+.pie {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
+}
+
+/* Responsivo: celular */
+@media (max-width: 576px) {
+  .extracto {
+    padding: 0 10px;
+  }
+}
+
+/* Responsivo: tablet */
+@media (min-width: 577px) and (max-width: 992px) {
+  .extracto {
+    max-width: 90%;
+  }
+}
+
+/* Responsivo: escritorio */
+@media (min-width: 993px) {
+  .extracto {
+    max-width: 600px;
+  }
+}

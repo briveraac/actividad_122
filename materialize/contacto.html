@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Lo Quieres, Te Lo Vendo (Materialize)</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <nav class="menu">
+    <div class="nav-wrapper container">
+      <a href="index.html" class="brand-logo">Lo quieres, te lo vendo</a>
+      <ul class="right">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html#productos">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <h1 style="font-family: Arial; font-size: 10px;">Contáctanos</h1>
+
+  <p class="extracto" style="font-size: 14px; line-height: 1.6; color: #333;">
+    ¿Tienes dudas sobre un pedido o quieres cotizar un producto? Completa el formulario
+    y te responderemos pronto.
+  </p>
+
+  <form class="container">
+    <div class="input-field">
+      <label class="active" for="nombre">Nombre</label>
+      <input id="nombre" type="text">
+    </div>
+    <div class="input-field">
+      <label class="active" for="correo">Correo electrónico</label>
+      <input id="correo" type="email">
+    </div>
+    <div class="input-field">
+      <label class="active" for="asunto">Asunto</label>
+      <select id="asunto" class="browser-default">
+        <option>Consulta general</option>
+        <option>Estado de un pedido</option>
+        <option>Reclamo</option>
+      </select>
+    </div>
+    <div class="input-field">
+      <label class="active" for="mensaje">Mensaje</label>
+      <textarea id="mensaje"></textarea>
+    </div>
+    <button type="submit" class="btn boton-rojo">Enviar</button>
+  </form>
+
+  <footer class="pie">
+    <p>Equipo Full Stack II - 2026</p>
+  </footer>
+
+</body>
+</html>
